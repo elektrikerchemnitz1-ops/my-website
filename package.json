@@ -1,0 +1,17 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "generate": "node src/generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "contentful": "^11.12.5",
+    "dotenv": "^17.4.2"
+  }
+}
