@@ -4,6 +4,8 @@ on:
   push:
     branches: [ develop ]
   workflow_dispatch:
+  repository_dispatch:
+    types: [contentful-publish]
 
 permissions:
   contents: write
